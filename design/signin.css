@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    background-color: powderblue;
+    
+  }
+  
+  h1
+  { 
+    text-align: center;
+  }
+  
+  p
+  {
+    text-align: center;
+    font-size: 20px;  
+  }
+  
+  table
+  {
+    font-style: italic;
+    font-size: 35px;  
+  }
+  
+  p a:hover{ 
+    color:tomato;
+  }

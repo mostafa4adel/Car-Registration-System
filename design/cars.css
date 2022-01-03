@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  background-color: 4178f6;
+}
+
+ul {
+  list-style-type: none;
+  background-color: 94b3f9;
+  padding: 20px;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
+  margin-left: 50px;
+  transition: 0.5s;
+}
+
+#register {
+  display: block;
+  float: right;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li:hover {
+  background-color: 4178f6;
+}
+
+#slogan {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#rent {
+  text-align: center;
+}
+
+#rent a {
+  border-radius: 15px;
+  background-color: 94b3f9;
+  font-weight: bold;
+  font-size: 23px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding: 7px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  transition: 0.5s;
+}
+
+#rent a:hover {
+  background-color: #4178f6;
+  border-color: white;
+}
+
+.grid-container {
+  display: grid;
+  margin: auto;
+  margin-top: 40px;
+  width: 50%;
+  grid-template-columns: auto auto;
+}
+
+.grid-item {
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.grid-item:hover {
+  transform: scale(1.07);
+}
+
+.grid-item h4 {
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 25px;
+  float: left;
+}
+
+#view {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#view a {
+  border-radius: 15px;
+  background-color: 94b3f9;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding: 7px;
+  margin-bottom: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  transition: 0.5s;
+}
+
+#view a:hover {
+  background-color: #4178f6;
+  border-color: white;
+}

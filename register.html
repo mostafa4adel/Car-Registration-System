@@ -1,0 +1,61 @@
+<html>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="design/register.css" />
+  <body>
+    <link rel="stylesheet" href="design/register.css" />
+    <ul>
+      <li id="title" class="logo">Sign Up page</li>
+      <li><a href="signin.php">Back</a></li>
+    </ul>
+    <form action="#" method="post">
+      <table cellspacing="5" align="center">
+        <tr>
+          <td>E-mail:</td>
+          <td>
+            <input id="email" type="text" name="email" placeholder="E-mail" />
+          </td>
+        </tr>
+        <tr>
+          <td>Name:</td>
+          <td>
+            <input id="name" type="text" name="name" placeholder="Name" />
+          </td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td>
+            <input
+              id="pass1"
+              type="password"
+              name="pwd1"
+              placeholder="Password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td>
+            <input
+              id="pass2"
+              type="password"
+              name="pwd2"
+              placeholder="Re-enter your pw"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input
+              type="submit"
+              name="sgnup"
+              value="Submit"
+              onclick="return validateForm()"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+  <script src="scripts/register.js"></script>
+</html>

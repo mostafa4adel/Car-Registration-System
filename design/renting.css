@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+  }
+body
+{
+  margin:0;
+  background-color: white;
+
+}
+.navbar 
+{
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a 
+{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover
+{
+    color: tomato;
+}
+ .main
+{
+    width: 100%;
+    padding: 16px;
+    margin-top: 30px;
+    height: 200px; /* Used in this example to enable scrolling */
+ } 
+.footer1
+{
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: none;
+    min-height: 120px;
+    color: #ffffff;
+    background-color: #333333;
+}
+.footer1 a
+{
+    color: lightblue;
+}
+.footer1 a:hover
+{
+    color: tomato;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%; 
+}
+.column div
+{
+    box-align : center;
+    width: 50%;
+    position: relative;
+}
+
+.backlink
+{
+    background-color: #333333;
+    position: relative;
+    text-align: center;
+    padding: 1em;
+}
+
+.backlink a
+{
+    display: table;
+  border-style: solid;
+  border-bottom-width: 0;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+
+.spacing
+{
+    margin-bottom: 30px;
+}
+.widening
+{
+    width: 50px;
+}
+.fields
+{
+    padding: 10px;
+    width: 500px;
+}
+.buttons
+{
+    padding: 10px;
+    width: 100px;
+}
+.horizontally
+{
+    display: inline-block;
+}
