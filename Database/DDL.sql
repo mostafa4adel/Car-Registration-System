@@ -9,7 +9,7 @@ CREATE TABLE car_registration.user(
         (Sex = 'F' OR Sex = 'M'),
         BirthDate DATE,
         Address VARCHAR(1000) NOT NULL,
-        PhoneNumber VARCHAR(10)
+        PhoneNumber VARCHAR(100)
 );
 
 CREATE TABLE car_registration.admin(
@@ -20,7 +20,9 @@ CREATE TABLE car_registration.admin(
 CREATE TABLE car_registration.Office(
     ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     NAME VARCHAR(100) NOT NULL,
-    Location VARCHAR(1000) NOT NULL
+    Country VARCHAR(100) NOT NULL,
+    City VARCHAR(100) NOT NULL,
+    Street VARCHAR(1000) NOT NULL    
 );
 
 CREATE TABLE car_registration.car(
