@@ -30,6 +30,36 @@ body
 {
     color: tomato;
 }
+.navbar img
+{
+    float: left;
+    display: block;
+    padding: 5px 5px;
+}
+.search-wrapper
+{
+    
+    margin-top: 12px;
+    display: inline;
+    display: block;
+    float: right;
+}
+#search
+{
+    width:150px;
+}
+#go
+{
+    width:50px;
+    text-align: center;
+}
+#signout
+{
+    display: inline;
+    display: block;
+    float: right;
+}
+
  .main
 {
     width: 100%;
@@ -46,7 +76,7 @@ body
     width: 100%;
     text-align: center;
     background-image: none;
-    min-height: 120px;
+    min-height: 100px;
     color: #ffffff;
     background-color: #333333;
 }
@@ -109,4 +139,9 @@ body
 .horizontally
 {
     display: inline-block;
+}
+.specs
+{
+    margin-bottom: 0px;
+    font-size: small;
 }

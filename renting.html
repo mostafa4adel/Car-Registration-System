@@ -13,9 +13,17 @@
     <link rel="stylesheet" href="design/renting.css">
 
     <div class="navbar">
+        <img src="img/icon.jpg" id="carimage" width="40" height="45">
         <a href="#home">Home</a>
-        <a href="#news">News</a>
+        <a href="#news">Contact</a>
         <a href="#contact">Contact</a>
+        
+        <a id ="signout" href="#contact">Sign out</a>
+        <form class="search-wrapper">
+            <input id ='search'  type='text'     name='search'   placeholder="Search.."/>
+            <button id="go"      type="submit">Go</button>
+        </form>
+        
       </div>
 
     <div class="main">
@@ -28,6 +36,17 @@
             </section>
         <div>
             <img src="img/32303032-0.png" id="carimage" width="500" height="300">
+        </div>
+        <br>
+        <div id="showmore">
+            <details>
+                <summary>Click here to view car specs</summary>
+                    <div class="specs"><p>Car Type</div>
+                    <div class="specs"><p>Model</div>
+                    <div class="specs"><p>Color</div>
+                    <div class="specs"><p>ID</div>
+                    <div class="specs"><p>Plate#</div>
+            </details>
         </div>
         </div>
 
@@ -46,6 +65,9 @@
                 <div class="spacing"><input id ='cancel' type='button'   name='cancel' Value="Cancel"            class="buttons horizontally"/></div>
             </form>
         </div>
+            <div>
+                <div><p>The car is Available</p></div>
+            </div>
         </div>
 
 
