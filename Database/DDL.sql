@@ -7,7 +7,6 @@ CREATE TABLE car_registration.user(
     PASSWORD VARCHAR(100) NOT NULL,
     Sex CHAR(1) NOT NULL CHECK
         (Sex = 'F' OR Sex = 'M'),
-        BirthDate DATE,
         Address VARCHAR(1000) NOT NULL,
         PhoneNumber VARCHAR(100)
 );

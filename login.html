@@ -44,7 +44,7 @@
                   type="radio"
                   name="inlineRadioOptions"
                   id="adminOption"
-                  value="M"
+                  value="Admin"
                 />
                 <label class="form-check-label" for="adminOption">Admin</label>
               </div>
@@ -60,12 +60,21 @@
                   >Customer</label
                 >
               </div>
+              <label id="adminOrUserNotChecked" style="display: none"
+                >Please Choose a User</label
+              >
             </div>
 
             <div class="mb-3">
               <button class="btn btn-primary" id="loginBtn">Login</button>
 
               <button class="btn btn-primary" id="signupBtn">Signup</button>
+            </div>
+
+            <div class="mb-3">
+              <label id="wrongInput" style="display: none"
+                >Wrong Email or Password</label
+              >
             </div>
           </div>
         </div>
