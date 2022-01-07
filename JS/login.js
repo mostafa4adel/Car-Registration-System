@@ -38,13 +38,14 @@ loginBtn.addEventListener('click', function () {
       if (adminOption.checked || customerOption.checked) {
         userEmail = emailInput.value
         userPassword = passwordInput.value
-        let user = 'A'
-        if (customerOption.checked) user = 'C'
+        let userType = 'A'
+        if (customerOption.checked) userType = 'C'
         $.post(
           './PHP/login.php',
           {
             email: userEmail,
             password: userPassword,
+            user: userType,
           },
           function (res, status) {
             if (res.includes('Wrong Email or Password')) {

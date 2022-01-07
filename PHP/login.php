@@ -10,7 +10,7 @@
  $password = $_POST['password'];
  $user = $_POST['user'];
   
-  $conn = new mysqli('localhost','root','','registration');
+  $conn = new mysqli('localhost','root','','car_registration');
 
 if ($conn -> connect_error){
  die('Connection Failed : '.$conn->connect_error);
